@@ -1,0 +1,302 @@
+.form-white.input-group > .form-control:focus {
+  border-color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main {
+  font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
+}
+main .titulo_principal {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 1px;
+}
+main .subtitulo_principal {
+  text-align: center;
+  color: grey;
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: rgba(0, 0, 0, 0.877);
+  margin-top: 7%;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+main {
+  font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
+  /* IMAGENES - INDEX */
+}
+main .imagenes_index {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 3%;
+  font-size: smaller;
+  text-align: center;
+}
+main .imagenes_index img {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+main .section_info_ok {
+  line-height: 2;
+  width: 50%;
+  margin-left: 25%;
+}
+main .section_info_ok p {
+  overflow-wrap: break-word;
+  font-weight: 500;
+}
+
+.h3_comunidad {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.crypto-table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  padding: 10px;
+}
+.crypto-table th {
+  color: rgba(0, 0, 0, 0.3);
+}
+.crypto-table tbody tr {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 15px 1px rgba(62, 57, 107, 0.07);
+  box-shadow: 0 1px 15px 1px rgba(62, 57, 107, 0.07);
+  height: 50px;
+  vertical-align: middle;
+}
+.crypto-table tbody tr td > * {
+  vertical-align: middle;
+}
+.crypto-table tbody tr td img {
+  width: 25px;
+  height: 25px;
+}
+.crypto-table tbody tr td .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.crypto-table tbody tr td .button2 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: gray;
+  background-color: rgba(0, 0, 0, 0.877);
+  text-align: center;
+}
+.crypto-table tbody tr td .button2:hover {
+  color: white;
+}
+
+.size {
+  width: 50% !important;
+  margin-left: 25% !important;
+}
+.size #bold {
+  font-weight: bold;
+}
+
+.nfts_present {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+.nfts_present .color_card_nft {
+  background: rgba(0, 0, 0, 0.877) !important;
+  max-width: 350px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05), 0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.nfts_present .card a {
+  text-decoration: none;
+}
+.nfts_present .card__product-img {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nfts_present .card__product-img img {
+  width: 100%;
+  display: block;
+}
+.nfts_present .card__body {
+  padding: 23px 0;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+}
+.nfts_present .card__body .card__title {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.nfts_present .card__body .card__title:hover {
+  color: #1cd8d2;
+}
+.nfts_present .card__body .card__text {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 23px;
+}
+.nfts_present .card__body .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nfts_present .card__body .wrapper .card__price {
+  color: white;
+}
+.nfts_present .card__body .wrapper .button3 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  transition: all 0.2s;
+}
+.nfts_present .card__footer {
+  display: flex;
+  align-items: center;
+}
+.nfts_present .card__footer .card__author-img {
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.nfts_present .card__footer .card__author-name {
+  color: white;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.nfts_present .card__footer .card__author-name a {
+  color: yellow;
+  font-weight: 400;
+}
+@media all and (max-width: 30em) {
+  .nfts_present .button3 {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

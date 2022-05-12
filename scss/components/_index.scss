@@ -1,0 +1,38 @@
+main {
+
+    font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
+
+
+    /* IMAGENES - INDEX */
+    .imagenes_index {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        padding: 3%;
+        font-size: smaller;
+        text-align: center;
+
+        img {
+            width: 90%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+    }
+
+
+    .section_info_ok {
+        line-height: 2;
+        width: 50%;
+        margin-left: 25%;
+
+
+         p {
+            overflow-wrap: break-word;
+            font-weight: 500;
+        }
+
+    }
+
+
+}
