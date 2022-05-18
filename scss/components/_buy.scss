@@ -1,26 +1,32 @@
 .h3_comunidad {
-    
+
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .crypto-table {
-    
+
     border-collapse: separate;
     border-spacing: 0 1em;
-    padding: 10px;
+    /* padding: 10px; */
 
 
-    th {
-        color: rgba(0, 0, 0, 0.3);
+
+    thead {
+        background-color: rgb(245, 245, 245);
+        border-radius: 8px 8px 0px 0px;
+
+        th {
+            color: rgb(112, 122, 138);
+            font-size: 14px;
+        }
+
     }
 
-
-
     tbody tr {
-        
+
         background: #fff;
         -webkit-box-shadow: 0 1px 15px 1px rgba(62, 57, 107, 0.07);
         box-shadow: 0 1px 15px 1px rgba(62, 57, 107, 0.07);
@@ -47,22 +53,62 @@
                 border-radius: 50%;
             }
 
-            .button2{
-                display:inline-block;
-                padding:0.3em 1.2em;
-                border-radius:2em;
-                box-sizing: border-box;
-                text-decoration:none;
-                font-family:'Roboto',sans-serif;
-                font-weight:300;
-                color:gray;
-                background-color:rgba(0, 0, 0, 0.877);
-                text-align:center;
-               
+            .accion {
+                color: rgb(201, 148, 0);
+                text-decoration: none;
+
             }
-            .button2:hover{
+
+            a:hover {
+                color: lightgray;
+            }
+
+            .button2 {
+                display: inline-block;
+                padding: 0.3em 1.2em;
+                border-radius: 2em;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                color: gray;
+                background-color: rgba(0, 0, 0, 0.877);
+                text-align: center;
+
+            }
+
+            .button2:hover {
                 color: white;
             }
         }
     }
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+    .table {
+        border-radius: 0.2rem;
+        width: 100%;
+        padding-bottom: 1rem;
+        color: #212529;
+        margin-bottom: 0;
+    }
+
+    .table th:nth-child(1),
+    .table td:nth-child(1) {
+        position: sticky;
+        left: 0;
+        background-color: rgb(245, 245, 245);
+        color: #373737;
+    }
+
+    .table td {
+        white-space: nowrap;
+        font-size: smaller;
+    }
+
+
 }

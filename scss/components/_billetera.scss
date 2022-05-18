@@ -1,0 +1,50 @@
+.balance {
+
+    display: flex;
+    margin-top: 2%;
+    margin-left: 26%;
+
+    .css-q9r0e3 {
+        box-sizing: border-box;
+        margin: 0px 8px 0px 0px;
+        min-width: 0px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgb(30, 35, 41);
+        text-decoration: bold;
+    }
+
+    .css-ers787 {
+        box-sizing: border-box;
+        margin: 0px;
+        min-width: 0px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        color: rgb(112, 122, 138);
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    .balance {
+
+        margin-top: 7%;
+        margin-left: 4%;
+        .css-q9r0e3 {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .css-ers787 {
+            font-size: 17px;
+            line-height: 21px;
+        }
+
+
+
+
+    }
+}

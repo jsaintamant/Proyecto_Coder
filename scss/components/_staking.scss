@@ -9,3 +9,38 @@
 
   }
 
+.accion{
+    color: rgb(201, 148, 0);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: lightgray;
+}
+
+
+thead{
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px 8px 0px 0px;
+    
+    tr{
+        th{
+            color: rgb(112, 122, 138) ;
+            font-size: 14px;
+        }
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 400px) {
+    .size{
+        width: 50% !important;
+        margin-left: 0% !important;
+    }
+
+ 
+
+}
