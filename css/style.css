@@ -12,13 +12,19 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
+main .titulo_principal {
+  margin-top: 50px;
+  margin-bottom: 1px;
+}
+
+/* .box {
+    @include border-radius(10px);
+} */
 main {
   font-family: "Binance Plex", -apple-system, BlinkMacSystemFont, Arial, "Helvetica Neue", sans-serif;
 }
 main .titulo_principal {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 1px;
 }
 main .subtitulo_principal {
   text-align: center;
@@ -191,8 +197,8 @@ main .section_info_ok p {
   border-radius: 50%;
 }
 .crypto-table tbody tr td .accion {
-  color: rgb(201, 148, 0);
   text-decoration: none;
+  color: rgb(201, 148, 0);
 }
 .crypto-table tbody tr td a:hover {
   color: lightgray;

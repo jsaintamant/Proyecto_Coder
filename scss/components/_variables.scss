@@ -1,0 +1,39 @@
+// paleta de colores
+
+$colors: ("white": white,
+    "black": black,
+    "yellow_binance": rgb(201, 148, 0),
+    "red": red,
+);
+
+//uso map-get en buy.scss para el color de la clase "accion"
+
+
+
+
+
+%titulos {
+    margin-top: 50px;
+    margin-bottom: 1px;
+
+}
+
+//uso extend en titles.scss
+
+
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    
+}
+
+
+//EJEMPLO DE MIXIN APLICADO
+
+
+/* .box {
+    @include border-radius(10px);
+} */
